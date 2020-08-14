@@ -28,16 +28,28 @@ export function SimpleMap({
     zoom,
     minZoom,
     maxZoom,
+    configFile,
     onClick,
 }) {
     const [active, setActive] = React.useState("")
     const [hovered, setHovered] = React.useState("")
+    const [config, setConfig] = React.useState(null)
+
+    React.useEffect(() => {
+        const fetchConfig = async () => {
+            try {
+                const response = await fetch(configFile)
+                setConfig(await response.json())
+            } catch (err) {
+                console.log(err)
+            }
+        }
+        fetchConfig()
+    }, [configFile])
+
     return (
         <div>
-            <ComposableMap
-                data-tip=""
-                projection={projection}
-            >
+            <ComposableMap data-tip="" projection={projection}>
                 <ZoomableGroup zoom={zoom} minZoom={minZoom} maxZoom={maxZoom}>
                     <Sphere
                         fill={sphereFill}
@@ -54,6 +66,23 @@ export function SimpleMap({
                             <>
                                 {geographies.map((geo) => {
                                     const { NAME, ISO_A3 } = geo.properties
+                                    const custom =
+                                        config !== null &&
+                                        config.find(
+                                            (item) => item.ISO_A3 === ISO_A3
+                                        )
+                                    const geographyDefaultFill =
+                                        custom && custom.default
+                                            ? custom.default
+                                            : defaultFill
+                                    const geographyHoverFill =
+                                        custom && custom.hover
+                                            ? custom.hover
+                                            : hoverFill
+                                    const geographyActiveFill =
+                                        custom && custom.active
+                                            ? custom.active
+                                            : activeFill
                                     return (
                                         <Geography
                                             key={geo.rsmKey}
@@ -75,8 +104,8 @@ export function SimpleMap({
                                                 default: {
                                                     fill:
                                                         active === ISO_A3
-                                                            ? activeFill
-                                                            : defaultFill,
+                                                            ? geographyActiveFill
+                                                            : geographyDefaultFill,
                                                     stroke: strokeColor,
                                                     strokeWidth: 0.5,
                                                     outline: "none",
@@ -84,14 +113,14 @@ export function SimpleMap({
                                                 hover: {
                                                     fill:
                                                         active === ISO_A3
-                                                            ? activeFill
-                                                            : hoverFill,
+                                                            ? geographyActiveFill
+                                                            : geographyHoverFill,
                                                     stroke: strokeColor,
                                                     strokeWidth: 0.5,
                                                     outline: "none",
                                                 },
                                                 pressed: {
-                                                    fill: activeFill,
+                                                    fill: geographyActiveFill,
                                                     stroke: strokeColor,
                                                     strokeWidth: 0.5,
                                                     outline: "none",
@@ -124,6 +153,7 @@ SimpleMap.defaultProps = {
     zoom: 1,
     minZoom: 1,
     maxZoom: 8,
+    configFile: null,
     onClick: () => null,
 }
 
@@ -220,6 +250,11 @@ addPropertyControls(SimpleMap, {
         defaultValue: 8,
         min: 0.1,
         max: 50,
+    },
+    configFile: {
+        title: "Customise",
+        type: ControlType.File,
+        allowedFileTypes: ["json"],
     },
     onClick: {
         type: ControlType.EventHandler,
