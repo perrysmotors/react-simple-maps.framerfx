@@ -47,6 +47,7 @@ export function SimpleMap({
                     />
                     <Graticule
                         stroke={graticuleColor}
+                        strokeWidth={.5}
                         clipPath="url(#rsm-sphere)"
                     />
                     <Geographies geography={geoUrl}>
@@ -69,19 +70,29 @@ export function SimpleMap({
                                             }}
                                             style={{
                                                 default: {
-                                                    fill: active === NAME ? activeFill : defaultFill,
+                                                    fill:
+                                                        active === NAME
+                                                            ? activeFill
+                                                            : defaultFill,
                                                     stroke: strokeColor,
+                                                    strokeWidth: .5,
                                                     outline: "none",
                                                 },
                                                 hover: {
-                                                    fill: active === NAME ? activeFill : hoverFill,
+                                                    fill:
+                                                        active === NAME
+                                                            ? activeFill
+                                                            : hoverFill,
                                                     stroke: strokeColor,
+                                                    strokeWidth: .5,
                                                     outline: "none",
                                                 },
-                                                // pressed: {
-                                                //     fill: hoverFill,
-                                                //     outline: "none",
-                                                // },
+                                                pressed: {
+                                                    fill: activeFill,
+                                                    stroke: strokeColor,
+                                                    strokeWidth: .5,
+                                                    outline: "none",
+                                                },
                                             }}
                                         />
                                     )

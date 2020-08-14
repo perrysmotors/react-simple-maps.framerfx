@@ -18,11 +18,11 @@
           "hoverFill" : "hsl(238, 100%, 60%)",
           "maxZoom" : 5,
           "minZoom" : 1,
-          "projection" : "geoEqualEarth",
+          "projection" : "geoPolyhedralWaterman",
           "sphereColor" : "#FF5533",
           "sphereFill" : "transparent",
           "strokeColor" : "rgb(255, 255, 255)",
-          "zoom" : 1
+          "zoom" : 0.10000000000000001
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -45,7 +45,7 @@
         "id" : "rhRfsCjL5",
         "intrinsicHeight" : 600,
         "intrinsicWidth" : 800,
-        "left" : 418,
+        "left" : 421,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -61,7 +61,7 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 384,
+        "top" : 447,
         "visible" : true,
         "width" : 800,
         "widthType" : 0
