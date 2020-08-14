@@ -29,6 +29,7 @@ export function SimpleMap({
     zoom,
     minZoom,
     maxZoom,
+    onClick,
 }) {
     const [active, setActive] = React.useState("")
     const [hovered, setHovered] = React.useState("")
@@ -47,14 +48,14 @@ export function SimpleMap({
                     />
                     <Graticule
                         stroke={graticuleColor}
-                        strokeWidth={.5}
+                        strokeWidth={0.5}
                         clipPath="url(#rsm-sphere)"
                     />
                     <Geographies geography={geoUrl}>
                         {({ geographies }) => (
                             <>
                                 {geographies.map((geo) => {
-                                    const { NAME } = geo.properties
+                                    const { NAME, ISO_A3 } = geo.properties
                                     return (
                                         <Geography
                                             key={geo.rsmKey}
@@ -65,32 +66,36 @@ export function SimpleMap({
                                             onMouseLeave={() => setHovered("")}
                                             onClick={() => {
                                                 setActive(
-                                                    active === NAME ? "" : NAME
+                                                    active === ISO_A3
+                                                        ? ""
+                                                        : ISO_A3
                                                 )
+                                                onClick &
+                                                    onClick(geo.properties)
                                             }}
                                             style={{
                                                 default: {
                                                     fill:
-                                                        active === NAME
+                                                        active === ISO_A3
                                                             ? activeFill
                                                             : defaultFill,
                                                     stroke: strokeColor,
-                                                    strokeWidth: .5,
+                                                    strokeWidth: 0.5,
                                                     outline: "none",
                                                 },
                                                 hover: {
                                                     fill:
-                                                        active === NAME
+                                                        active === ISO_A3
                                                             ? activeFill
                                                             : hoverFill,
                                                     stroke: strokeColor,
-                                                    strokeWidth: .5,
+                                                    strokeWidth: 0.5,
                                                     outline: "none",
                                                 },
                                                 pressed: {
                                                     fill: activeFill,
                                                     stroke: strokeColor,
-                                                    strokeWidth: .5,
+                                                    strokeWidth: 0.5,
                                                     outline: "none",
                                                 },
                                             }}
@@ -121,6 +126,7 @@ SimpleMap.defaultProps = {
     zoom: 1,
     minZoom: 1,
     maxZoom: 8,
+    onClick: () => null,
 }
 
 addPropertyControls(SimpleMap, {
