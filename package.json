@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "86426988-5059-4bcc-9afb-766698d2a735"
+	},
+	"author": "Giles Perry",
+	"dependencies": {
+		"@framer/framer.default": "^1.76.0",
+		"react-simple-maps": "^2.1.2"
+	}
+}
