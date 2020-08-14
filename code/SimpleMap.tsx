@@ -37,7 +37,6 @@ export function SimpleMap({
             <ComposableMap
                 data-tip=""
                 projection={projection}
-                projectionConfig={{ scale: 200 }}
             >
                 <ZoomableGroup zoom={zoom} minZoom={minZoom} maxZoom={maxZoom}>
                     <Sphere
