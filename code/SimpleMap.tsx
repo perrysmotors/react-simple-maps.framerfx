@@ -12,7 +12,6 @@ import {
     Geographies,
     Geography,
 } from "react-simple-maps"
-// import { geoCentroid } from "d3-geo"
 
 const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json"
@@ -223,7 +222,7 @@ addPropertyControls(SimpleMap, {
         min: 0.1,
         max: 50,
     },
-    // onTap: {
-    //     type: ControlType.EventHandler,
-    // },
+    onClick: {
+        type: ControlType.EventHandler,
+    },
 })
