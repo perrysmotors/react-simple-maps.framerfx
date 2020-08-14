@@ -12,13 +12,17 @@
         "codeComponentIdentifier" : ".\/SimpleMap.tsx_SimpleMap",
         "codeComponentPackageVersion" : "1.76.0",
         "codeComponentProps" : {
-          "defaultColor" : "rgba(214, 214, 218, 0)",
+          "activeFill" : "#F53",
           "defaultFill" : "hsl(0, 0%, 83%)",
           "graticuleColor" : "hsl(0, 0%, 50%)",
-          "hoverFill" : "hsl(322, 85%, 50%)",
+          "hoverFill" : "hsl(238, 100%, 60%)",
+          "maxZoom" : 5,
+          "minZoom" : 1,
           "projection" : "geoEqualEarth",
           "sphereColor" : "#FF5533",
-          "sphereFill" : "transparent"
+          "sphereFill" : "transparent",
+          "strokeColor" : "rgb(255, 255, 255)",
+          "zoom" : 1
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,

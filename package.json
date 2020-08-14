@@ -14,6 +14,7 @@
 	"author": "Giles Perry",
 	"dependencies": {
 		"@framer/framer.default": "^1.76.0",
-		"react-simple-maps": "^2.1.2"
+		"react-simple-maps": "^2.1.2",
+		"react-tooltip": "^4.2.8"
 	}
 }

@@ -3,6 +3,7 @@ import { addPropertyControls, ControlType } from "framer"
 
 import { indentTitle } from "./lib/indentTitle"
 
+import ReactTooltip from "react-tooltip"
 import {
     ComposableMap,
     ZoomableGroup,
@@ -11,6 +12,7 @@ import {
     Geographies,
     Geography,
 } from "react-simple-maps"
+// import { geoCentroid } from "d3-geo"
 
 const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json"
@@ -18,63 +20,79 @@ const geoUrl =
 export function SimpleMap({
     projection,
     defaultFill,
-    defaultColor,
     hoverFill,
+    activeFill,
+    strokeColor,
     sphereFill,
     sphereColor,
     graticuleColor,
+    zoom,
+    minZoom,
+    maxZoom,
 }) {
-    // const [content, setContent] = React.useState("")
+    const [active, setActive] = React.useState("")
+    const [hovered, setHovered] = React.useState("")
     return (
-        <ComposableMap
-            data-tip=""
-            projection={projection}
-            projectionConfig={{ scale: 200 }}
-        >
-            <ZoomableGroup>
-                <Sphere
-                    fill={sphereFill}
-                    stroke={sphereColor}
-                    strokeWidth={2}
-                />
-                <Graticule
-                    stroke={graticuleColor}
-                    clipPath="url(#rsm-sphere)"
-                />
-                <Geographies geography={geoUrl}>
-                    {({ geographies }) =>
-                        geographies.map((geo) => (
-                            <Geography
-                                key={geo.rsmKey}
-                                geography={geo}
-                                //   onMouseEnter={() => {
-                                //     const { NAME, POP_EST } = geo.properties;
-                                //     setTooltipContent(`${NAME} — ${rounded(POP_EST)}`);
-                                //   }}
-                                //   onMouseLeave={() => {
-                                //     setTooltipContent("");
-                                //   }}
-                                style={{
-                                    default: {
-                                        fill: defaultFill,
-                                        stroke: defaultColor,
-                                        outline: "none",
-                                    },
-                                    hover: {
-                                        fill: hoverFill,
-                                        outline: "none",
-                                    },
-                                    pressed: {
-                                        fill: hoverFill,
-                                        outline: "none",
-                                    },
-                                }}
-                            />
-                        ))
-                    }
-                </Geographies>
-            </ZoomableGroup>
-        </ComposableMap>
+        <div>
+            <ComposableMap
+                data-tip=""
+                projection={projection}
+                projectionConfig={{ scale: 200 }}
+            >
+                <ZoomableGroup zoom={zoom} minZoom={minZoom} maxZoom={maxZoom}>
+                    <Sphere
+                        fill={sphereFill}
+                        stroke={sphereColor}
+                        strokeWidth={2}
+                    />
+                    <Graticule
+                        stroke={graticuleColor}
+                        clipPath="url(#rsm-sphere)"
+                    />
+                    <Geographies geography={geoUrl}>
+                        {({ geographies }) => (
+                            <>
+                                {geographies.map((geo) => {
+                                    const { NAME } = geo.properties
+                                    return (
+                                        <Geography
+                                            key={geo.rsmKey}
+                                            geography={geo}
+                                            onMouseEnter={() =>
+                                                setHovered(NAME)
+                                            }
+                                            onMouseLeave={() => setHovered("")}
+                                            onClick={() => {
+                                                setActive(
+                                                    active === NAME ? "" : NAME
+                                                )
+                                            }}
+                                            style={{
+                                                default: {
+                                                    fill: active === NAME ? activeFill : defaultFill,
+                                                    stroke: strokeColor,
+                                                    outline: "none",
+                                                },
+                                                hover: {
+                                                    fill: active === NAME ? activeFill : hoverFill,
+                                                    stroke: strokeColor,
+                                                    outline: "none",
+                                                },
+                                                // pressed: {
+                                                //     fill: hoverFill,
+                                                //     outline: "none",
+                                                // },
+                                            }}
+                                        />
+                                    )
+                                })}
+                            </>
+                        )}
+                    </Geographies>
+                </ZoomableGroup>
+            </ComposableMap>
+            <ReactTooltip>{hovered}</ReactTooltip>
+        </div>
     )
 }
 
@@ -83,11 +101,15 @@ SimpleMap.defaultProps = {
     width: 800,
     projection: "geoEqualEarth",
     defaultFill: "#D6D6DA",
-    defaultColor: "transparent",
     hoverFill: "#F53",
+    activeFill: "#D6D6DA",
+    strokeColor: "transparent",
     sphereFill: "transparent",
     sphereColor: "#FF5533",
     graticuleColor: "#DDD",
+    zoom: 1,
+    minZoom: 1,
+    maxZoom: 8,
 }
 
 addPropertyControls(SimpleMap, {
@@ -129,19 +151,24 @@ addPropertyControls(SimpleMap, {
         defaultValue: SimpleMap.defaultProps.projection,
     },
     defaultFill: {
-        title: "Fill",
+        title: "Countries",
         type: ControlType.Color,
         defaultValue: SimpleMap.defaultProps.defaultFill,
-    },
-    defaultColor: {
-        title: indentTitle("Stroke"),
-        type: ControlType.Color,
-        defaultValue: SimpleMap.defaultProps.defaultColor,
     },
     hoverFill: {
         title: indentTitle("Hover"),
         type: ControlType.Color,
         defaultValue: SimpleMap.defaultProps.hoverFill,
+    },
+    activeFill: {
+        title: indentTitle("Active"),
+        type: ControlType.Color,
+        defaultValue: SimpleMap.defaultProps.hoverFill,
+    },
+    strokeColor: {
+        title: indentTitle("Outline"),
+        type: ControlType.Color,
+        defaultValue: SimpleMap.defaultProps.strokeColor,
     },
     sphereFill: {
         title: "Sphere",
@@ -157,6 +184,27 @@ addPropertyControls(SimpleMap, {
         title: "Graticule",
         type: ControlType.Color,
         defaultValue: SimpleMap.defaultProps.graticuleColor,
+    },
+    zoom: {
+        title: "Zoom",
+        type: ControlType.Number,
+        defaultValue: 1,
+        min: 0.1,
+        max: 50,
+    },
+    minZoom: {
+        title: indentTitle("Min"),
+        type: ControlType.Number,
+        defaultValue: 1,
+        min: 0.1,
+        max: 50,
+    },
+    maxZoom: {
+        title: indentTitle("Max"),
+        type: ControlType.Number,
+        defaultValue: 8,
+        min: 0.1,
+        max: 50,
     },
     // onTap: {
     //     type: ControlType.EventHandler,
