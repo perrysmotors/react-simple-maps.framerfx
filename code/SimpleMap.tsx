@@ -33,18 +33,22 @@ export function SimpleMap({
 }) {
     const [active, setActive] = React.useState("")
     const [hovered, setHovered] = React.useState("")
-    const [config, setConfig] = React.useState(null)
+    const [config, setConfig] = React.useState([])
 
     React.useEffect(() => {
-        const fetchConfig = async () => {
+        const setConfigFromFile = async (url) => {
             try {
-                const response = await fetch(configFile)
+                const response = await fetch(url)
                 setConfig(await response.json())
             } catch (err) {
-                console.log(err)
+                setConfig([])
             }
         }
-        fetchConfig()
+        if (configFile) {
+            setConfigFromFile(configFile)
+        } else {
+            setConfig([])
+        }
     }, [configFile])
 
     return (
@@ -66,11 +70,9 @@ export function SimpleMap({
                             <>
                                 {geographies.map((geo) => {
                                     const { NAME, ISO_A3 } = geo.properties
-                                    const custom =
-                                        config !== null &&
-                                        config.find(
-                                            (item) => item.ISO_A3 === ISO_A3
-                                        )
+                                    const custom = config.find(
+                                        (item) => item.ISO_A3 === ISO_A3
+                                    )
                                     const geographyDefaultFill =
                                         custom && custom.default
                                             ? custom.default
