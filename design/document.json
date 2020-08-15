@@ -1620,16 +1620,17 @@
         "__class" : "CodeComponentNode",
         "aspectRatio" : null,
         "bottom" : null,
-        "centerAnchorX" : 0.27937499999999998,
-        "centerAnchorY" : 0.25,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
         "clip" : true,
         "codeComponentIdentifier" : ".\/SimpleMap.tsx_SimpleMap",
         "codeComponentPackageVersion" : "1.76.0",
         "codeComponentProps" : {
           "activeFill" : "#F53",
-          "configFile" : "",
-          "defaultFill" : "hsl(240, 25%, 77%)",
+          "defaultFill" : "#D6D6DA",
           "graticuleColor" : "#DDD",
+          "graticuleType" : "Over",
+          "hasTooltip" : true,
           "hoverFill" : "#F53",
           "maxZoom" : 8,
           "minZoom" : 1,
@@ -1642,7 +1643,7 @@
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
         "duplicatedFrom" : [
-          "JZ14xTB0d"
+          "ZgKoT383H"
         ],
         "exportOptions" : [
 
@@ -1657,10 +1658,10 @@
         "fillType" : "color",
         "height" : 600,
         "heightType" : 0,
-        "id" : "sqTBuuP74",
+        "id" : "x0O8LCOk_",
         "intrinsicHeight" : 600,
         "intrinsicWidth" : 800,
-        "left" : 268,
+        "left" : 793,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -1676,9 +1677,9 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 97,
+        "top" : 282,
         "visible" : true,
-        "width" : 824,
+        "width" : 800,
         "widthType" : 0
       }
     ],
