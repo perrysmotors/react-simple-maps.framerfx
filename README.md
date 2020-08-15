@@ -17,7 +17,7 @@ The map can be configured, via a JSON file, to display specific countries using 
 
 ## Handling Interactions
 
-When you click on a country, you can trigger a transition by adding an interaction in the properties panel. You can also handle the click using an override, and access information about the clicked country. Here's an example:
+When you click on a country, you can trigger a transition by adding an interaction in the properties panel. You can also handle the click using an override, and access information about the clicked country:
 
 ```
 import { Override } from "framer"
