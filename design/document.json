@@ -1643,7 +1643,7 @@
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
         "duplicatedFrom" : [
-          "ZgKoT383H"
+          "CJNL_hvl6"
         ],
         "exportOptions" : [
 
@@ -1658,10 +1658,10 @@
         "fillType" : "color",
         "height" : 600,
         "heightType" : 0,
-        "id" : "x0O8LCOk_",
+        "id" : "H3V1u5YMQ",
         "intrinsicHeight" : 600,
         "intrinsicWidth" : 800,
-        "left" : 793,
+        "left" : 822,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -1677,7 +1677,7 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 282,
+        "top" : 182,
         "visible" : true,
         "width" : 800,
         "widthType" : 0
