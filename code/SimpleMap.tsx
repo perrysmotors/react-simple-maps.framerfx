@@ -24,10 +24,12 @@ export function SimpleMap({
     strokeColor,
     sphereFill,
     sphereColor,
+    graticuleType,
     graticuleColor,
     zoom,
     minZoom,
     maxZoom,
+    hasTooltip,
     configFile,
     onClick,
 }) {
@@ -51,6 +53,15 @@ export function SimpleMap({
         }
     }, [configFile])
 
+    const graticule = (
+        <Graticule
+            stroke={graticuleColor}
+            fill={"none"}
+            strokeWidth={0.5}
+            clipPath="url(#rsm-sphere)"
+        />
+    )
+
     return (
         <div>
             <ComposableMap data-tip="" projection={projection}>
@@ -60,6 +71,7 @@ export function SimpleMap({
                         stroke={sphereColor}
                         strokeWidth={2}
                     />
+                    {graticuleType === "Under" ? graticule : null}
                     <Geographies geography={geoUrl}>
                         {({ geographies }) => (
                             <>
@@ -129,14 +141,10 @@ export function SimpleMap({
                             </>
                         )}
                     </Geographies>
-                    <Graticule
-                        stroke={graticuleColor}
-                        strokeWidth={0.5}
-                        clipPath="url(#rsm-sphere)"
-                    />
+                    {graticuleType === "Over" ? graticule : null}
                 </ZoomableGroup>
             </ComposableMap>
-            <ReactTooltip>{hovered}</ReactTooltip>
+            {hasTooltip ? <ReactTooltip>{hovered}</ReactTooltip> : null}
         </div>
     )
 }
@@ -151,10 +159,12 @@ SimpleMap.defaultProps = {
     strokeColor: "transparent",
     sphereFill: "transparent",
     sphereColor: "#FF5533",
+    graticuleType: "Over",
     graticuleColor: "#DDD",
     zoom: 1,
     minZoom: 1,
     maxZoom: 8,
+    hasTooltip: true,
     configFile: null,
     onClick: () => null,
 }
@@ -227,10 +237,17 @@ addPropertyControls(SimpleMap, {
         type: ControlType.Color,
         defaultValue: SimpleMap.defaultProps.sphereColor,
     },
-    graticuleColor: {
+    graticuleType: {
         title: "Graticule",
+        type: ControlType.Enum,
+        options: ["Over", "Under", "None"],
+        displaySegmentedControl: true,
+    },
+    graticuleColor: {
+        title: indentTitle("Colour"),
         type: ControlType.Color,
         defaultValue: SimpleMap.defaultProps.graticuleColor,
+        hidden: ({ graticuleType }) => graticuleType === "None",
     },
     zoom: {
         title: "Zoom",
@@ -252,6 +269,13 @@ addPropertyControls(SimpleMap, {
         defaultValue: 8,
         min: 0.1,
         max: 50,
+    },
+    hasTooltip: {
+        title: "Tooltip",
+        type: ControlType.Boolean,
+        defaultValue: true,
+        enabledTitle: "Show",
+        disabledTitle: "Hide",
     },
     configFile: {
         title: "Customise",
