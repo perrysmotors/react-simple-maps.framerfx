@@ -60,11 +60,6 @@ export function SimpleMap({
                         stroke={sphereColor}
                         strokeWidth={2}
                     />
-                    <Graticule
-                        stroke={graticuleColor}
-                        strokeWidth={0.5}
-                        clipPath="url(#rsm-sphere)"
-                    />
                     <Geographies geography={geoUrl}>
                         {({ geographies }) => (
                             <>
@@ -134,6 +129,11 @@ export function SimpleMap({
                             </>
                         )}
                     </Geographies>
+                    <Graticule
+                        stroke={graticuleColor}
+                        strokeWidth={0.5}
+                        clipPath="url(#rsm-sphere)"
+                    />
                 </ZoomableGroup>
             </ComposableMap>
             <ReactTooltip>{hovered}</ReactTooltip>
