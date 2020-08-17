@@ -54,5 +54,6 @@ export function ClickCountry(): Override {
 
 ## Change Log
 
+- **1.2.0** — Add controls to set map centre and set tooltop colours
 - **1.1.0** — Bug fix
 - **1.0.0** — Initial release

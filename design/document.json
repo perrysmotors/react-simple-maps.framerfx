@@ -1627,10 +1627,12 @@
         "codeComponentPackageVersion" : "1.76.0",
         "codeComponentProps" : {
           "activeFill" : "#F53",
+          "centerLat" : 0,
+          "centerLon" : 0,
           "defaultFill" : "#D6D6DA",
           "graticuleColor" : "#DDD",
           "graticuleType" : "Over",
-          "hasTooltip" : false,
+          "hasTooltip" : true,
           "hoverFill" : "#F53",
           "maxZoom" : 8,
           "minZoom" : 1,
@@ -1638,6 +1640,8 @@
           "sphereColor" : "#FF5533",
           "sphereFill" : "transparent",
           "strokeColor" : "transparent",
+          "tooltipBackground" : "#222",
+          "tooltipColor" : "hsl(0, 0%, 100%)",
           "zoom" : 1
         },
         "codeOverrideEnabled" : false,
