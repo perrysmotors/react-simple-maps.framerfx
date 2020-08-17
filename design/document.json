@@ -126,8 +126,8 @@
             "__class" : "ShapeContainerNode",
             "autoSize" : true,
             "bottom" : null,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.5,
+            "centerAnchorX" : 0.495,
+            "centerAnchorY" : 0.53500000000000003,
             "children" : [
               {
                 "__class" : "ShapeGroupNode",
@@ -150,7 +150,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 50.212582417582524,
+                    "height" : 45.077204670329792,
                     "id" : "uwtefM7Ay",
                     "lineCap" : "butt",
                     "lineJoin" : "miter",
@@ -164,46 +164,46 @@
                       {
                         "__class" : "PathSegment",
                         "handleInX" : 0,
-                        "handleInY" : 13.865821759425568,
+                        "handleInY" : 12.447726352211603,
                         "handleMirroring" : "symmetric",
                         "handleOutX" : 0,
-                        "handleOutY" : -13.865821759425568,
+                        "handleOutY" : -12.447726352211602,
                         "radius" : 0,
                         "x" : 0,
-                        "y" : 25.106291208790815
+                        "y" : 22.538602335164448
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -13.865821759426019,
+                        "handleInX" : -12.447726352212051,
                         "handleInY" : 0,
                         "handleMirroring" : "symmetric",
-                        "handleOutX" : 13.865821759426026,
+                        "handleOutX" : 12.447726352212054,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 25.106291208791262,
+                        "x" : 22.53860233516512,
                         "y" : 0
                       },
                       {
                         "__class" : "PathSegment",
                         "handleInX" : 0,
-                        "handleInY" : -13.865821759426693,
+                        "handleInY" : -12.447726352212724,
                         "handleMirroring" : "symmetric",
                         "handleOutX" : 0,
-                        "handleOutY" : 13.865821759426691,
+                        "handleOutY" : 12.447726352212726,
                         "radius" : 0,
-                        "x" : 50.212582417581629,
-                        "y" : 25.106291208790815
+                        "x" : 45.077204670328904,
+                        "y" : 22.538602335164448
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : 13.865821759426467,
+                        "handleInX" : 12.447726352212495,
                         "handleInY" : 0,
                         "handleMirroring" : "symmetric",
-                        "handleOutX" : -13.865821759426467,
+                        "handleOutX" : -12.447726352212499,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 25.106291208791262,
-                        "y" : 50.212582417582524
+                        "x" : 22.53860233516512,
+                        "y" : 45.077204670329792
                       }
                     ],
                     "rotation" : 0,
@@ -212,11 +212,11 @@
                     "strokeDashArray" : "0",
                     "strokeEnabled" : 1,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 2.6099999999999999,
+                    "strokeWidth" : 2.3399999999999999,
                     "visible" : true,
-                    "width" : 50.212582417581629,
-                    "x" : 4.1833694953020384,
-                    "y" : 0
+                    "width" : 45.077204670328904,
+                    "x" : 3.7555248878279519,
+                    "y" : -1.7763568394002505e-15
                   },
                   {
                     "__class" : "PathNode",
@@ -235,7 +235,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 49.999759615384519,
+                    "height" : 44.886147836538449,
                     "id" : "q7XlPuUgf",
                     "lineCap" : "round",
                     "lineJoin" : "miter",
@@ -251,44 +251,44 @@
                         "handleInX" : 0,
                         "handleInY" : 0,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : -11.32380494505564,
-                        "handleOutY" : 11.323804945054965,
+                        "handleOutX" : -10.165688530220491,
+                        "handleOutY" : 10.165688530219814,
                         "radius" : 0,
-                        "x" : 8.5785343304673951,
+                        "x" : 7.7011842284878069,
                         "y" : 0
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -11.096703296703687,
-                        "handleInY" : -11.463873626373509,
+                        "handleInX" : -9.9618131868132718,
+                        "handleInY" : -10.29143200549429,
                         "handleMirroring" : "disconnected",
                         "handleOutX" : 0,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 8.238561802994532,
-                        "y" : 41.076840659340462
+                        "x" : 7.3959816185971965,
+                        "y" : 36.87580013736244
                       },
                       {
                         "__class" : "PathSegment",
                         "handleInX" : 0,
                         "handleInY" : 0,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : 11.43939560439501,
-                        "handleOutY" : 11.436675824175424,
+                        "handleOutX" : 10.269457417582068,
+                        "handleOutY" : 10.267015796702978,
                         "radius" : 0,
-                        "x" : 8.5785343304673951,
-                        "y" : 41.422252747252941
+                        "x" : 7.7011842284878069,
+                        "y" : 37.185885989011219
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -11.436675824175651,
-                        "handleInY" : 11.436675824175424,
+                        "handleInX" : -10.267015796702978,
+                        "handleInY" : 10.267015796702978,
                         "handleMirroring" : "disconnected",
                         "handleOutX" : 0,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 50.000787077719657,
-                        "y" : 41.422252747252941
+                        "x" : 44.887070217498348,
+                        "y" : 37.185885989011219
                       },
                       {
                         "__class" : "PathSegment",
@@ -298,8 +298,8 @@
                         "handleOutX" : 0,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 50.000787077719657,
-                        "y" : 41.422252747252941
+                        "x" : 44.887070217498348,
+                        "y" : 37.185885989011219
                       }
                     ],
                     "rotation" : 0,
@@ -308,11 +308,11 @@
                     "strokeDashArray" : "0",
                     "strokeEnabled" : 1,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 2.6099999999999999,
+                    "strokeWidth" : 2.3399999999999999,
                     "visible" : true,
-                    "width" : 50.000787077719657,
-                    "x" : -9.9920072216264089e-16,
-                    "y" : 4.3951648351649082
+                    "width" : 44.887070217498348,
+                    "x" : 1.5543122344752192e-15,
+                    "y" : 3.9456593406594047
                   },
                   {
                     "__class" : "PathNode",
@@ -331,7 +331,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 12.553145604395635,
+                    "height" : 11.269301167582562,
                     "id" : "u91F_V_P1",
                     "lineCap" : "butt",
                     "lineJoin" : "miter",
@@ -345,46 +345,46 @@
                       {
                         "__class" : "PathSegment",
                         "handleInX" : 0,
-                        "handleInY" : 3.4663598901098851,
+                        "handleInY" : 3.1118458104396325,
                         "handleMirroring" : "disconnected",
                         "handleOutX" : 0,
-                        "handleOutY" : -3.4677197802195643,
+                        "handleOutY" : -3.1130666208789499,
                         "radius" : 0,
                         "x" : 0,
-                        "y" : 6.2772527472527671
+                        "y" : 5.6352609890109413
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -12.13157967032965,
+                        "handleInX" : -10.890849931318719,
                         "handleInY" : 0,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : 12.13293956043978,
+                        "handleOutX" : 10.892070741758712,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 21.966304945054976,
+                        "x" : 19.719751030219768,
                         "y" : 0
                       },
                       {
                         "__class" : "PathSegment",
                         "handleInX" : 0,
-                        "handleInY" : -3.4663598901098851,
+                        "handleInY" : -3.1118458104396325,
                         "handleMirroring" : "symmetric",
                         "handleOutX" : 0,
-                        "handleOutY" : 3.4663598901098851,
+                        "handleOutY" : 3.1118458104396325,
                         "radius" : 0,
-                        "x" : 43.933969780220067,
-                        "y" : 6.2772527472527671
+                        "x" : 39.44072287087954,
+                        "y" : 5.6352609890109413
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : 12.13293956043978,
+                        "handleInX" : 10.892070741758712,
                         "handleInY" : 0,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : -12.13157967032965,
+                        "handleOutX" : -10.890849931318719,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 21.966304945054976,
-                        "y" : 12.553145604395635
+                        "x" : 19.719751030219768,
+                        "y" : 11.269301167582562
                       }
                     ],
                     "rotation" : 0,
@@ -392,11 +392,11 @@
                     "strokeColor" : "rgb(255,85,51)",
                     "strokeEnabled" : 1,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 2.6099999999999999,
+                    "strokeWidth" : 2.3399999999999999,
                     "visible" : true,
-                    "width" : 43.933969780220067,
-                    "x" : 7.3233557590383249,
-                    "y" : 18.829038461538499
+                    "width" : 39.44072287087954,
+                    "x" : 6.5743761927733031,
+                    "y" : 16.903341346153731
                   },
                   {
                     "__class" : "PathNode",
@@ -415,7 +415,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 38.568808320320514,
+                    "height" : 34.624271105742331,
                     "id" : "ckKxUSRie",
                     "lineCap" : "butt",
                     "lineJoin" : "miter",
@@ -428,47 +428,47 @@
                     "pathSegments" : [
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : 3.0012774725287699,
-                        "handleInY" : 1.7338598901098976,
+                        "handleInX" : 2.6943286401110953,
+                        "handleInY" : 1.5565333104395904,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : -3.0026373626366549,
-                        "handleOutY" : -1.7324999999997672,
+                        "handleOutX" : -2.695549450548846,
+                        "handleOutY" : -1.5553124999998218,
                         "radius" : 0,
-                        "x" : 1.2744098505365775,
-                        "y" : 38.308586852467926
+                        "x" : 1.1440724794589507,
+                        "y" : 34.390663197101929
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -6.0664697802196628,
-                        "handleInY" : 10.507870879121079,
+                        "handleInX" : -5.4460353708784552,
+                        "handleInY" : 9.4332022664836614,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : 6.0651098901104348,
-                        "handleOutY" : -10.506510989010728,
+                        "handleOutX" : 5.4448145604407117,
+                        "handleOutY" : -9.4319814560436672,
                         "radius" : 0,
-                        "x" : 6.8227614988888723,
-                        "y" : 16.146457731588569
+                        "x" : 6.1249790728658082,
+                        "y" : 14.49511546358532
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -3.0012774725269651,
-                        "handleInY" : -1.7338598901096702,
+                        "handleInX" : -2.6943286401093047,
+                        "handleInY" : -1.556533310439363,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : 3.0026373626380121,
-                        "handleOutY" : 1.7324999999997654,
+                        "handleOutX" : 2.6955494505501889,
+                        "handleOutY" : 1.5553125000000456,
                         "radius" : 0,
-                        "x" : 23.240714795591547,
-                        "y" : 0.26022146785252409
+                        "x" : 20.863823509678721,
+                        "y" : 0.23360790864032877
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : 6.0664697802196628,
-                        "handleInY" : -10.506510989010952,
+                        "handleInX" : 5.4460353708793594,
+                        "handleInY" : -9.4319814560438893,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : -6.0651098901099836,
-                        "handleOutY" : 10.506510989011179,
+                        "handleOutX" : -5.4448145604393616,
+                        "handleOutY" : 9.4319814560441166,
                         "radius" : 0,
-                        "x" : 17.692363147240602,
-                        "y" : 22.422350588731657
+                        "x" : 15.882916916272757,
+                        "y" : 20.129155642156942
                       }
                     ],
                     "rotation" : 0,
@@ -476,11 +476,11 @@
                     "strokeColor" : "rgb(255,85,51)",
                     "strokeEnabled" : 1,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 2.6099999999999999,
+                    "strokeWidth" : 2.3399999999999999,
                     "visible" : true,
-                    "width" : 24.515124646128989,
-                    "x" : 17.032778326083179,
-                    "y" : 5.8212071035758601
+                    "width" : 22.007895989138603,
+                    "x" : 15.290789633642889,
+                    "y" : 5.225856377073768
                   },
                   {
                     "__class" : "PathNode",
@@ -499,7 +499,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 38.568808320320507,
+                    "height" : 34.624271105742316,
                     "id" : "WSOrY50f_",
                     "lineCap" : "butt",
                     "lineJoin" : "miter",
@@ -515,55 +515,55 @@
                         "handleInX" : 0,
                         "handleInY" : 0,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : -3.001277472527434,
-                        "handleOutY" : 1.7338598901098976,
+                        "handleOutX" : -2.6943286401102,
+                        "handleOutY" : 1.5565333104395904,
                         "radius" : 0,
-                        "x" : 23.241238164715234,
-                        "y" : 38.308586852467926
+                        "x" : 20.864293352414762,
+                        "y" : 34.390663197101929
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : 6.0664697802201175,
-                        "handleInY" : 10.506510989011176,
+                        "handleInX" : 5.4460353708793576,
+                        "handleInY" : 9.4319814560441131,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : -6.0651098901099871,
-                        "handleOutY" : -10.506510989010955,
+                        "handleOutX" : -5.4448145604398128,
+                        "handleOutY" : -9.4319814560438928,
                         "radius" : 0,
-                        "x" : 6.8219249779019693,
-                        "y" : 22.422350588731657
+                        "x" : 6.1242281051618583,
+                        "y" : 20.129155642156938
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -3.0012774725274234,
-                        "handleInY" : 1.7324999999997654,
+                        "handleInX" : -2.6943286401102,
+                        "handleInY" : 1.5553125000000447,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : 3.0026373626375502,
-                        "handleOutY" : -1.7338598901096702,
+                        "handleOutX" : 2.6955494505492936,
+                        "handleOutY" : -1.556533310439363,
                         "radius" : 0,
-                        "x" : 1.2735733295505764,
-                        "y" : 0.26022146785252409
+                        "x" : 1.1433215117558961,
+                        "y" : 0.23360790864032888
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -6.0664697802205687,
-                        "handleInY" : -10.506510989010728,
+                        "handleInX" : -5.4460353708802529,
+                        "handleInY" : -9.4319814560436672,
                         "handleMirroring" : "disconnected",
-                        "handleOutX" : 6.06510989010863,
-                        "handleOutY" : 10.506510989011179,
+                        "handleOutX" : 5.4448145604384699,
+                        "handleOutY" : 9.4319814560441166,
                         "radius" : 0,
-                        "x" : 17.694246406474413,
-                        "y" : 16.146457731588569
+                        "x" : 15.884607569448793,
+                        "y" : 14.49511546358532
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : 3.0012774725278746,
-                        "handleInY" : -1.7324999999999946,
+                        "handleInX" : 2.6943286401102,
+                        "handleInY" : -1.5553125000000421,
                         "handleMirroring" : "disconnected",
                         "handleOutX" : 0,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 23.242598054825358,
-                        "y" : 38.308586852467926
+                        "x" : 20.865514162854751,
+                        "y" : 34.390663197101929
                       }
                     ],
                     "rotation" : 0,
@@ -571,11 +571,11 @@
                     "strokeColor" : "rgb(255,85,51)",
                     "strokeEnabled" : 1,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 2.6099999999999999,
+                    "strokeWidth" : 2.3399999999999999,
                     "visible" : true,
-                    "width" : 24.51617138437598,
-                    "x" : 17.032254956960401,
-                    "y" : 5.8212071035760875
+                    "width" : 22.00883567461041,
+                    "x" : 15.290319790907745,
+                    "y" : 5.2258563770739936
                   },
                   {
                     "__class" : "PathNode",
@@ -594,7 +594,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 4.1830219780221221,
+                    "height" : 3.7552129120880551,
                     "id" : "bHFninmTA",
                     "lineCap" : "butt",
                     "lineJoin" : "miter",
@@ -608,46 +608,46 @@
                       {
                         "__class" : "PathSegment",
                         "handleInX" : 0,
-                        "handleInY" : 1.1551096233348552,
+                        "handleInY" : 1.036973411857506,
                         "handleMirroring" : "symmetric",
                         "handleOutX" : 0,
-                        "handleOutY" : -1.1551096233348552,
+                        "handleOutY" : -1.036973411857506,
                         "radius" : 0,
                         "x" : 0,
-                        "y" : 2.0915109890112866
+                        "y" : 1.8776064560442514
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : -1.155109623334404,
+                        "handleInX" : -1.0369734118572822,
                         "handleInY" : 0,
                         "handleMirroring" : "symmetric",
-                        "handleOutX" : 1.155109623334404,
+                        "handleOutX" : 1.0369734118572822,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 2.0915109890108354,
+                        "x" : 1.8776064560435799,
                         "y" : 0
                       },
                       {
                         "__class" : "PathSegment",
                         "handleInX" : 0,
-                        "handleInY" : -1.1551096233337326,
+                        "handleInY" : -1.0369734118563834,
                         "handleMirroring" : "symmetric",
                         "handleOutX" : 0,
-                        "handleOutY" : 1.1551096233337326,
+                        "handleOutY" : 1.0369734118563834,
                         "radius" : 0,
-                        "x" : 4.1830219780225733,
-                        "y" : 2.0915109890112866
+                        "x" : 3.7552129120885027,
+                        "y" : 1.8776064560442514
                       },
                       {
                         "__class" : "PathSegment",
-                        "handleInX" : 1.155109623334404,
+                        "handleInX" : 1.0369734118568346,
                         "handleInY" : 0,
                         "handleMirroring" : "symmetric",
-                        "handleOutX" : -1.155109623334404,
+                        "handleOutX" : -1.0369734118568346,
                         "handleOutY" : 0,
                         "radius" : 0,
-                        "x" : 2.0915109890108354,
-                        "y" : 4.1830219780221221
+                        "x" : 1.8776064560435799,
+                        "y" : 3.7552129120880551
                       }
                     ],
                     "rotation" : 0,
@@ -655,11 +655,11 @@
                     "strokeColor" : "rgb(255,85,51)",
                     "strokeEnabled" : 1,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 1.5600000000000001,
+                    "strokeWidth" : 1.3999999999999999,
                     "visible" : true,
-                    "width" : 4.1830219780225733,
-                    "x" : 27.198149715082014,
-                    "y" : 23.014780219780427
+                    "width" : 3.7552129120885027,
+                    "x" : 24.416520766948597,
+                    "y" : 20.660995879121092
                   },
                   {
                     "__class" : "BooleanShapeNode",
@@ -682,7 +682,7 @@
                         "fillImagePixelWidth" : null,
                         "fillImageResize" : "fill",
                         "fillType" : "color",
-                        "height" : 3.13862637362638,
+                        "height" : 2.8176304945055861,
                         "id" : "k4VnegDug",
                         "lineCap" : "butt",
                         "lineJoin" : "miter",
@@ -713,7 +713,7 @@
                             "handleOutY" : 0,
                             "radius" : 0,
                             "x" : 0,
-                            "y" : 3.13862637362638
+                            "y" : 2.8176304945055861
                           }
                         ],
                         "rotation" : 0,
@@ -722,10 +722,10 @@
                         "strokeDashArray" : "0",
                         "strokeEnabled" : 1,
                         "strokeMiterLimit" : 4,
-                        "strokeWidth" : 1.3500000000000001,
+                        "strokeWidth" : 1.21,
                         "visible" : true,
                         "width" : 1,
-                        "x" : 12.551785714285728,
+                        "x" : 11.268080357142789,
                         "y" : 0
                       },
                       {
@@ -775,7 +775,7 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 25.104931318681128,
+                            "x" : 22.537381524725127,
                             "y" : 0
                           }
                         ],
@@ -785,11 +785,11 @@
                         "strokeDashArray" : "0",
                         "strokeEnabled" : 1,
                         "strokeMiterLimit" : 4,
-                        "strokeWidth" : 1.3500000000000001,
+                        "strokeWidth" : 1.21,
                         "visible" : true,
-                        "width" : 25.104931318681128,
+                        "width" : 22.537381524725127,
                         "x" : 0,
-                        "y" : 7.3230082417581883
+                        "y" : 6.5740642170327277
                       }
                     ],
                     "duplicatedFrom" : [
@@ -806,7 +806,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 7.3230082417581883,
+                    "height" : 6.5740642170327277,
                     "id" : "xhuRVOEDu",
                     "lineCap" : "round",
                     "lineJoin" : "miter",
@@ -822,11 +822,11 @@
                     "strokeDashArray" : "0",
                     "strokeEnabled" : 1,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 2.6099999999999999,
+                    "strokeWidth" : 2.3399999999999999,
                     "visible" : true,
-                    "width" : 25.104931318681128,
-                    "x" : 16.73787498980802,
-                    "y" : 58.579986263736231
+                    "width" : 22.537381524725127,
+                    "x" : 15.026046865850285,
+                    "y" : 52.588851304944988
                   },
                   {
                     "__class" : "BooleanShapeNode",
@@ -849,7 +849,7 @@
                         "fillImagePixelWidth" : null,
                         "fillImageResize" : "fill",
                         "fillType" : "color",
-                        "height" : 9.812967032966867,
+                        "height" : 8.8093681318679273,
                         "id" : "CPeDotUxa",
                         "locked" : false,
                         "name" : null,
@@ -866,40 +866,40 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 8.9915934065938075,
-                            "y" : 9.812967032966867
+                            "x" : 8.0719986263742669,
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
                             "handleInX" : 0,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
-                            "handleOutX" : 1.5815521978019902,
-                            "handleOutY" : -0.3522115384613187,
+                            "handleOutX" : 1.4198025412087887,
+                            "handleOutY" : -0.31618990384583867,
                             "radius" : 0,
-                            "x" : 5.9168818681320161,
-                            "y" : 6.3275686813187662
+                            "x" : 5.3117462225274181,
+                            "y" : 5.6804309752747031
                           },
                           {
                             "__class" : "PathSegment",
                             "handleInX" : 0,
-                            "handleInY" : 1.6101098901099817,
+                            "handleInY" : 1.4454395604396382,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
-                            "handleOutY" : -1.9188049450548164,
+                            "handleOutY" : -1.7225635302196451,
                             "radius" : 0,
-                            "x" : 8.4938736263738761,
-                            "y" : 3.2079807692305877
+                            "x" : 7.6251820054949135,
+                            "y" : 2.8798918269229432
                           },
                           {
                             "__class" : "PathSegment",
-                            "handleInX" : 2.1227884615388533,
+                            "handleInX" : 1.9056850961544072,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 4.9649587912086304,
+                            "x" : 4.4571789148349694,
                             "y" : 0
                           },
                           {
@@ -922,7 +922,7 @@
                             "handleOutY" : 0,
                             "radius" : 0,
                             "x" : 0,
-                            "y" : 9.812967032966867
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -932,8 +932,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.4165247252745274,
-                            "y" : 9.812967032966867
+                            "x" : 2.1693801510987676,
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -943,8 +943,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.4165247252745274,
-                            "y" : 6.4445192307693873
+                            "x" : 2.1693801510987676,
+                            "y" : 5.7854206730771693
                           },
                           {
                             "__class" : "PathSegment",
@@ -954,8 +954,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 3.1195879120875034,
-                            "y" : 6.4445192307693873
+                            "x" : 2.8005391483513122,
+                            "y" : 5.7854206730771693
                           },
                           {
                             "__class" : "PathSegment",
@@ -965,15 +965,15 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 6.0773489010993416,
-                            "y" : 9.812967032966867
+                            "x" : 5.4558018543961495,
+                            "y" : 8.8093681318679273
                           }
                         ],
                         "rotation" : 0,
                         "visible" : true,
-                        "width" : 8.9915934065938075,
+                        "width" : 8.0719986263742669,
                         "x" : 0,
-                        "y" : 0.22030219780219795
+                        "y" : 0.19777129120860337
                       },
                       {
                         "__class" : "PathNode",
@@ -992,7 +992,7 @@
                         "fillImagePixelWidth" : null,
                         "fillImageResize" : "fill",
                         "fillType" : "color",
-                        "height" : 2.3580494505493306,
+                        "height" : 2.1168853021975451,
                         "id" : "NqW0d90zG",
                         "locked" : false,
                         "name" : null,
@@ -1010,7 +1010,7 @@
                             "handleOutY" : 0,
                             "radius" : 0,
                             "x" : 0,
-                            "y" : 2.3580494505493306
+                            "y" : 2.1168853021975451
                           },
                           {
                             "__class" : "PathSegment",
@@ -1028,40 +1028,40 @@
                             "handleInX" : 0,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
-                            "handleOutX" : 0.86353021978074906,
+                            "handleOutX" : 0.77521462912172368,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.2846153846149662,
+                            "x" : 2.0509615384608821,
                             "y" : 0
                           },
                           {
                             "__class" : "PathSegment",
                             "handleInX" : 0,
-                            "handleInY" : -0.70306318681342361,
+                            "handleInY" : -0.63115899725323743,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
-                            "handleOutY" : 0.71802197802190904,
+                            "handleOutY" : 0.64458791208772936,
                             "radius" : 0,
-                            "x" : 3.7057005494505262,
-                            "y" : 1.1708653846154675
+                            "x" : 3.3267084478022859,
+                            "y" : 1.0511177884617382
                           },
                           {
                             "__class" : "PathSegment",
-                            "handleInX" : 0.86353021978074906,
+                            "handleInX" : 0.77521462912172368,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.2846153846149662,
-                            "y" : 2.3580494505493306
+                            "x" : 2.0509615384608821,
+                            "y" : 2.1168853021975451
                           }
                         ],
                         "rotation" : 0,
                         "visible" : true,
-                        "width" : 3.7057005494505262,
-                        "x" : 2.4165247252745274,
-                        "y" : 2.28597527472553
+                        "width" : 3.3267084478022859,
+                        "x" : 2.1693801510987676,
+                        "y" : 2.0521823489013187
                       },
                       {
                         "__class" : "PathNode",
@@ -1080,7 +1080,7 @@
                         "fillImagePixelWidth" : null,
                         "fillImageResize" : "fill",
                         "fillType" : "color",
-                        "height" : 10.252211538461367,
+                        "height" : 9.2036899038460334,
                         "id" : "ES0SNmksJ",
                         "locked" : false,
                         "name" : null,
@@ -1094,193 +1094,193 @@
                             "handleInX" : 0,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
-                            "handleOutX" : -2.2982142857131009,
+                            "handleOutX" : -2.0631696428558612,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 4.1571840659337198,
-                            "y" : 0.0013598901096685267
+                            "x" : 3.7320175137358405,
+                            "y" : 0.001220810439320985
                           },
                           {
                             "__class" : "PathSegment",
                             "handleInX" : 0,
-                            "handleInY" : -1.9038461538456488,
+                            "handleInY" : -1.7091346153842153,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
-                            "handleOutY" : 1.7868956043957098,
+                            "handleOutY" : 1.6041449175824312,
                             "radius" : 0,
-                            "x" : 0.27741758241817394,
-                            "y" : 3.0910302197799666
+                            "x" : 0.24904532967119763,
+                            "y" : 2.774902129120683
                           },
                           {
                             "__class" : "PathSegment",
-                            "handleInX" : -1.4061263736259448,
-                            "handleInY" : -0.32365384615401638,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : 0,
-                            "handleOutY" : 0,
-                            "radius" : 0,
-                            "x" : 2.9128846153843355,
-                            "y" : 5.9332005494508593
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : 0,
-                            "handleInY" : 0,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : 0.70306318681252122,
-                            "handleOutY" : 0.14686813186806091,
-                            "radius" : 0,
-                            "x" : 4.9635989010993953,
-                            "y" : 6.3710851648350229
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : 0,
-                            "handleInY" : -0.43924450549428684,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : 0,
-                            "handleOutY" : 0.5997115384616194,
-                            "radius" : 0,
-                            "x" : 5.8720054945058564,
-                            "y" : 7.2359752747249928
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : 0.90704670329677839,
-                            "handleInY" : 0,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : -0.9818406593403779,
-                            "handleOutY" : 0,
-                            "radius" : 0,
-                            "x" : 4.4223626373625322,
-                            "y" : 8.2463736263733551
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : 0.24885989010996923,
-                            "handleInY" : 1.0103983516485897,
+                            "handleInX" : -1.2623179945050893,
+                            "handleInY" : -0.29055288461563578,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.4885989010983209,
-                            "y" : 6.796730769230706
+                            "x" : 2.6149759615381285,
+                            "y" : 5.3263959478025882
                           },
                           {
                             "__class" : "PathSegment",
                             "handleInX" : 0,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
-                            "handleOutX" : 0.26245879120900639,
-                            "handleOutY" : 1.9174450549449205,
+                            "handleOutX" : 0.63115899725209346,
+                            "handleOutY" : 0.13184752747261541,
+                            "radius" : 0,
+                            "x" : 4.4559581043958758,
+                            "y" : 5.7194969093405135
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : -0.39432177197789997,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0.53837740384619792,
+                            "radius" : 0,
+                            "x" : 5.2714594780220594,
+                            "y" : 6.4959323489008582
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.81428056318708997,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : -0.8814251373623847,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 3.9700755494502573,
+                            "y" : 7.4029945054940995
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.22340831043945286,
+                            "handleInY" : 0.90706215659366762,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 2.2340831043949763,
+                            "y" : 6.1016105769229867
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0.23561641483532725,
+                            "handleOutY" : 1.7213427197800968,
                             "radius" : 0,
                             "x" : 0,
-                            "y" : 7.2794917582417042
+                            "y" : 6.5349982829669173
                           },
                           {
                             "__class" : "PathSegment",
-                            "handleInX" : -2.2125412087920679,
+                            "handleInX" : -1.9862585851655723,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
-                            "handleOutX" : 2.1812637362622525,
+                            "handleOutX" : 1.958179945053395,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 4.2904532967043139,
-                            "y" : 10.252211538461367
+                            "x" : 3.851656936814166,
+                            "y" : 9.2036899038460334
                           },
                           {
                             "__class" : "PathSegment",
                             "handleInX" : 0,
-                            "handleInY" : 2.0942307692301938,
+                            "handleInY" : 1.8800480769226624,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
-                            "handleOutY" : -1.551634615384998,
+                            "handleOutY" : -1.392944711538604,
                             "radius" : 0,
-                            "x" : 8.3320467032964203,
-                            "y" : 7.0741483516486596
+                            "x" : 7.4799055631866409,
+                            "y" : 6.3506559065934951
                           },
                           {
                             "__class" : "PathSegment",
-                            "handleInX" : 1.6998626373625214,
-                            "handleInY" : 0.38076923076863523,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : 0,
-                            "handleOutY" : 0,
-                            "radius" : 0,
-                            "x" : 5.6367445054944838,
-                            "y" : 4.2183791208793906
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : 0,
-                            "handleInY" : 0,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : -0.61467032967077984,
-                            "handleOutY" : -0.13190934065912074,
-                            "radius" : 0,
-                            "x" : 3.6009890109890321,
-                            "y" : 3.7641758241757231
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : 0,
-                            "handleInY" : 0.39572802197780277,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : 0,
-                            "handleOutY" : -0.55619505494513533,
-                            "radius" : 0,
-                            "x" : 2.810892857143557,
-                            "y" : 2.9441620879121189
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : -0.80641483516522783,
-                            "handleInY" : 0,
-                            "handleMirroring" : "disconnected",
-                            "handleOutX" : 0.77513736263721,
-                            "handleOutY" : 0,
-                            "radius" : 0,
-                            "x" : 4.129986263736086,
-                            "y" : 1.9487225274724835
-                          },
-                          {
-                            "__class" : "PathSegment",
-                            "handleInX" : -0.17678571428617573,
-                            "handleInY" : -0.92200549450504354,
+                            "handleInX" : 1.5260130494503485,
+                            "handleInY" : 0.3418269230762121,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 5.8434478021980993,
-                            "y" : 3.3249313186812088
+                            "x" : 5.0602592719780333,
+                            "y" : 3.7869539835168453
                           },
                           {
                             "__class" : "PathSegment",
                             "handleInX" : 0,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
-                            "handleOutX" : -0.3671703296700457,
-                            "handleOutY" : -1.7868956043952551,
+                            "handleOutX" : -0.55180631868181962,
+                            "handleOutY" : -0.11841861263721398,
                             "radius" : 0,
-                            "x" : 8.2150961538460194,
-                            "y" : 2.8421703296699974
+                            "x" : 3.2327060439561563,
+                            "y" : 3.3792032967032881
                           },
                           {
                             "__class" : "PathSegment",
-                            "handleInX" : 2.1377472527475732,
+                            "handleInX" : 0,
+                            "handleInY" : 0.35525583791164195,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : -0.49931146978036622,
+                            "radius" : 0,
+                            "x" : 2.5234151785719803,
+                            "y" : 2.6430546016484939
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.72394059066003535,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0.69586195054920097,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 3.707601304944987,
+                            "y" : 1.7494213598900288
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.15870535714368827,
+                            "handleInY" : -0.82770947802137584,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 5.2458224587916646,
+                            "y" : 2.9848815247251608
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : -0.32961881868101273,
+                            "handleOutY" : -1.6041449175819764,
+                            "radius" : 0,
+                            "x" : 7.3749158653846223,
+                            "y" : 2.5514938186810028
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 1.9191140109893752,
                             "handleInY" : 0,
                             "handleMirroring" : "disconnected",
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 4.1585439560438502,
+                            "x" : 3.7332383241758365,
                             "y" : 0
                           }
                         ],
                         "rotation" : 0,
                         "visible" : true,
-                        "width" : 8.3320467032964203,
-                        "x" : 9.8864010989016791,
+                        "width" : 7.4799055631866409,
+                        "x" : 8.8752918956050237,
                         "y" : 0
                       },
                       {
@@ -1300,7 +1300,7 @@
                         "fillImagePixelWidth" : null,
                         "fillImageResize" : "fill",
                         "fillType" : "color",
-                        "height" : 9.812967032966867,
+                        "height" : 8.8093681318679273,
                         "id" : "GyHGoN_6C",
                         "locked" : false,
                         "name" : null,
@@ -1317,7 +1317,7 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 11.319725274725698,
+                            "x" : 10.162026098901865,
                             "y" : 0
                           },
                           {
@@ -1328,8 +1328,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 11.319725274725698,
-                            "y" : 9.812967032966867
+                            "x" : 10.162026098901865,
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -1339,8 +1339,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 8.9766346153850947,
-                            "y" : 9.812967032966867
+                            "x" : 8.0585697115388548,
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -1350,8 +1350,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 8.9766346153850947,
-                            "y" : 4.5841895604397678
+                            "x" : 8.0585697115388548,
+                            "y" : 4.1153519917585299
                           },
                           {
                             "__class" : "PathSegment",
@@ -1361,8 +1361,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 6.2242170329671893,
-                            "y" : 9.812967032966867
+                            "x" : 5.5876493818685482,
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -1372,8 +1372,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 5.1104670329667812,
-                            "y" : 9.812967032966867
+                            "x" : 4.5878056318678269,
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -1383,8 +1383,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.3430906593410583,
-                            "y" : 4.5542719780221006
+                            "x" : 2.1034563873630141,
+                            "y" : 4.0884941620881534
                           },
                           {
                             "__class" : "PathSegment",
@@ -1394,8 +1394,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.3430906593410583,
-                            "y" : 9.812967032966867
+                            "x" : 2.1034563873630141,
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -1406,7 +1406,7 @@
                             "handleOutY" : 0,
                             "radius" : 0,
                             "x" : 0,
-                            "y" : 9.812967032966867
+                            "y" : 8.8093681318679273
                           },
                           {
                             "__class" : "PathSegment",
@@ -1427,7 +1427,7 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 2.3716483516479201,
+                            "x" : 2.1290934065929612,
                             "y" : 0
                           },
                           {
@@ -1438,8 +1438,8 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 5.6680219780215992,
-                            "y" : 6.2242170329669619
+                            "x" : 5.0883379120875141,
+                            "y" : 5.587649381867891
                           },
                           {
                             "__class" : "PathSegment",
@@ -1449,15 +1449,15 @@
                             "handleOutX" : 0,
                             "handleOutY" : 0,
                             "radius" : 0,
-                            "x" : 8.9630357142851551,
+                            "x" : 8.046361607142078,
                             "y" : 0
                           }
                         ],
                         "rotation" : 0,
                         "visible" : true,
-                        "width" : 11.319725274725698,
-                        "x" : 20.063818681318775,
-                        "y" : 0.22030219780219795
+                        "width" : 10.162026098901865,
+                        "x" : 18.011837225274874,
+                        "y" : 0.19777129120860337
                       }
                     ],
                     "duplicatedFrom" : [
@@ -1474,7 +1474,7 @@
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
                     "fillType" : "color",
-                    "height" : 10.252211538461367,
+                    "height" : 9.2036899038460334,
                     "id" : "jI3QSNfyk",
                     "lineCap" : "butt",
                     "lineJoin" : "miter",
@@ -1489,11 +1489,11 @@
                     "strokeColor" : "rgba(0,0,0,1)",
                     "strokeEnabled" : 0,
                     "strokeMiterLimit" : 10,
-                    "strokeWidth" : 1.3500000000000001,
+                    "strokeWidth" : 1.21,
                     "visible" : true,
-                    "width" : 31.383543956044473,
-                    "x" : 13.59924861618097,
-                    "y" : 71.131771978022186
+                    "width" : 28.17386332417674,
+                    "x" : 12.208416371344024,
+                    "y" : 63.856931662088236
                   }
                 ],
                 "duplicatedFrom" : [
@@ -1502,7 +1502,7 @@
                 "exportOptions" : [
 
                 ],
-                "height" : 81.383983516483553,
+                "height" : 73.060621565934269,
                 "id" : "nwgSZgmFq",
                 "locked" : false,
                 "name" : null,
@@ -1511,9 +1511,9 @@
                 "parentid" : "behIWpgya",
                 "rotation" : 0,
                 "visible" : true,
-                "width" : 54.395951912883667,
-                "x" : 16.318333801401341,
-                "y" : 2.7197802197802048
+                "width" : 48.832729558156856,
+                "x" : 14.649413298985493,
+                "y" : 2.4416208791208263
               }
             ],
             "constraintsLocked" : false,
@@ -1532,7 +1532,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 88,
+            "height" : 79,
             "heightType" : 0,
             "id" : "behIWpgya",
             "left" : null,
@@ -1552,7 +1552,7 @@
             "sizeToFit" : false,
             "top" : null,
             "visible" : true,
-            "width" : 88,
+            "width" : 79,
             "widthType" : 0
           }
         ],
@@ -1581,7 +1581,7 @@
         "fillType" : "color",
         "framePreset" : null,
         "guidesX" : [
-
+          50
         ],
         "guidesY" : [
 
@@ -1630,7 +1630,7 @@
           "defaultFill" : "#D6D6DA",
           "graticuleColor" : "#DDD",
           "graticuleType" : "Over",
-          "hasTooltip" : true,
+          "hasTooltip" : false,
           "hoverFill" : "#F53",
           "maxZoom" : 8,
           "minZoom" : 1,
@@ -1656,12 +1656,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 600,
+        "height" : 603,
         "heightType" : 0,
         "id" : "H3V1u5YMQ",
         "intrinsicHeight" : 600,
         "intrinsicWidth" : 800,
-        "left" : 822,
+        "left" : 867,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -1677,9 +1677,9 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 182,
+        "top" : 227,
         "visible" : true,
-        "width" : 800,
+        "width" : 796,
         "widthType" : 0
       }
     ],

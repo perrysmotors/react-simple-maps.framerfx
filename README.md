@@ -2,6 +2,8 @@
 
 Create beautiful SVG maps in Framer based on [React Simple Maps](https://www.react-simple-maps.io)
 
+[View the code on GitHub](https://github.com/perrysmotors/react-simple-maps.framerfx)
+
 ## Customising the Map
 
 The map can be configured, via a JSON file, to display specific countries using a set of custom colours. In the JSON file, countries are referenced using a [three-letter code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3). The `default`, `hover` and `active` colours for each listed country are defined using CSS colour values. It's only necessary to provide colours for the states you want to customise. Here's an example:
@@ -24,8 +26,8 @@ import { Override } from "framer"
 
 export function ClickCountry(): Override {
     return {
-        onClick: (geoProps) => {
-            console.log(geoProps)
+        onClickCountry: (geoProps) => {
+            console.log(geoProps.NAME)
         },
     }
 }
@@ -52,4 +54,5 @@ export function ClickCountry(): Override {
 
 ## Change Log
 
+- **1.1.0** — Bug fix
 - **1.0.0** — Initial release

@@ -17,6 +17,8 @@ const geoUrl =
     "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json"
 
 export function SimpleMap({
+    width,
+    height,
     projection,
     defaultFill,
     hoverFill,
@@ -31,7 +33,7 @@ export function SimpleMap({
     maxZoom,
     hasTooltip,
     configFile,
-    onClick,
+    onClickCountry,
 }) {
     const [active, setActive] = React.useState("")
     const [hovered, setHovered] = React.useState("")
@@ -64,7 +66,12 @@ export function SimpleMap({
 
     return (
         <div>
-            <ComposableMap data-tip="" projection={projection}>
+            <ComposableMap
+                data-tip=""
+                projection={projection}
+                width={width}
+                height={height}
+            >
                 <ZoomableGroup zoom={zoom} minZoom={minZoom} maxZoom={maxZoom}>
                     <Sphere
                         fill={sphereFill}
@@ -106,8 +113,10 @@ export function SimpleMap({
                                                         ? ""
                                                         : ISO_A3
                                                 )
-                                                onClick &
-                                                    onClick(geo.properties)
+                                                onClickCountry &&
+                                                    onClickCountry(
+                                                        geo.properties
+                                                    )
                                             }}
                                             style={{
                                                 default: {
@@ -166,7 +175,7 @@ SimpleMap.defaultProps = {
     maxZoom: 8,
     hasTooltip: true,
     configFile: null,
-    onClick: () => null,
+    onClickCountry: () => null,
 }
 
 addPropertyControls(SimpleMap, {
@@ -282,7 +291,7 @@ addPropertyControls(SimpleMap, {
         type: ControlType.File,
         allowedFileTypes: ["json"],
     },
-    onClick: {
+    onClickCountry: {
         type: ControlType.EventHandler,
     },
 })
