@@ -1639,7 +1639,7 @@
           "projection" : "geoEqualEarth",
           "sphereColor" : "#FF5533",
           "sphereFill" : "transparent",
-          "strokeColor" : "transparent",
+          "strokeColor" : "rgb(0, 0, 0)",
           "tooltipBackground" : "#222",
           "tooltipColor" : "hsl(0, 0%, 100%)",
           "zoom" : 1

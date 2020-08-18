@@ -62,8 +62,9 @@ export function SimpleMap({
     const graticule = (
         <Graticule
             stroke={graticuleColor}
-            fill={"none"}
-            strokeWidth={0.5}
+            fill="none"
+            strokeWidth={0.75}
+            vectorEffect="non-scaling-stroke"
             clipPath="url(#rsm-sphere)"
         />
     )
@@ -86,6 +87,7 @@ export function SimpleMap({
                         fill={sphereFill}
                         stroke={sphereColor}
                         strokeWidth={2}
+                        vectorEffect="non-scaling-stroke"
                     />
                     {graticuleType === "Under" ? graticule : null}
                     <Geographies geography={geoUrl}>
@@ -134,7 +136,9 @@ export function SimpleMap({
                                                             ? geographyActiveFill
                                                             : geographyDefaultFill,
                                                     stroke: strokeColor,
-                                                    strokeWidth: 0.5,
+                                                    strokeWidth: 0.75,
+                                                    vectorEffect:
+                                                        "non-scaling-stroke",
                                                     outline: "none",
                                                 },
                                                 hover: {
@@ -143,13 +147,17 @@ export function SimpleMap({
                                                             ? geographyActiveFill
                                                             : geographyHoverFill,
                                                     stroke: strokeColor,
-                                                    strokeWidth: 0.5,
+                                                    strokeWidth: 0.75,
+                                                    vectorEffect:
+                                                        "non-scaling-stroke",
                                                     outline: "none",
                                                 },
                                                 pressed: {
                                                     fill: geographyActiveFill,
                                                     stroke: strokeColor,
-                                                    strokeWidth: 0.5,
+                                                    strokeWidth: 0.75,
+                                                    vectorEffect:
+                                                        "non-scaling-stroke",
                                                     outline: "none",
                                                 },
                                             }}
@@ -326,11 +334,13 @@ addPropertyControls(SimpleMap, {
         title: indentTitle("Colour"),
         type: ControlType.Color,
         defaultValue: SimpleMap.defaultProps.tooltipBackground,
+        hidden: ({ hasTooltip }) => !hasTooltip,
     },
     tooltipColor: {
         title: indentTitle("Text"),
         type: ControlType.Color,
         defaultValue: SimpleMap.defaultProps.tooltipColor,
+        hidden: ({ hasTooltip }) => !hasTooltip,
     },
     configFile: {
         title: "Customise",
